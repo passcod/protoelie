@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'jwt', '~> 1.5.4'
+gem 'puma', '~> 3.4.0'
+gem 'rethinkdb', '~> 2.3.0.0'
+gem 'sinatra', '~> 1.4.7'
+gem 'typhoeus', '~> 1.0.2'
+
+group :development do
+  gem 'foreman', '~> 0.82.0', require: false
+  gem 'rubocop', '~> 0.41.2', require: false
+end
